@@ -13,7 +13,7 @@ class Result extends StatelessWidget {
     var resultText = 'You did it.';
 
     if (taotalScore <= 8)
-      resultText = ' you are awesome and innocent !!! 😁';
+      resultText = 'you are awesome and innocent !!! 😁' ;
     else if (taotalScore <= 12)
       resultText = 'Pretty likable! 😉';
     else if (taotalScore <= 16)
